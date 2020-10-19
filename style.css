@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    width: 100%;
+    height: 1000px;
+    background: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    height: 1000px;   
+}
+
+.perfil-main {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: 2px 0 5px 0;
+    margin-top: 5px;
+}
+
+.img-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-main img {
+    height: 180px;
+    width: 180px; 
+    border-radius: 100%;  
+}
+
+.name_top {
+    width: 370px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 1px solid #dddfe2;
+    border-right:  1px solid #dddfe2;
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: right;
+    padding: 5px 10px 5px 5px;
+}
+
+.name_curso{
+    margin-left: 3px;
+    font-weight: 540;
+    font-size: 14px;
+    border-bottom: 1px solid #dddfe2;
+    border-right:  1px solid #dddfe2;
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: right;
+    padding: 10px;
+}
+
+
+.indice,
+.info,
+.habil,
+.contatos {
+    width: 40%;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+
+.indice ul li {
+
+    font-size: 20px;
+    border-bottom:  1px solid #dddfe2;
+}
+
+.indice ul li:hover {
+    background-color: #dedfdf;
+}
+
+.indice ul li a {
+    color: #262727;
+    font-weight: 1000;
+}
+
+
+
+.contatos {
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+
